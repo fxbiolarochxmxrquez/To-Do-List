@@ -11,6 +11,8 @@
 		BDA4598C2B5A151900F5C828 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA4598B2B5A151900F5C828 /* ContentView.swift */; };
 		BDA4598E2B5A151C00F5C828 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDA4598D2B5A151C00F5C828 /* Assets.xcassets */; };
 		BDA459912B5A151C00F5C828 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDA459902B5A151C00F5C828 /* Preview Assets.xcassets */; };
+		BDA459982B640A9800F5C828 /* To Do List.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA459972B640A9800F5C828 /* To Do List.swift */; };
+		BDA4599C2B640CB000F5C828 /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA4599B2B640CB000F5C828 /* AddItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		BDA4598B2B5A151900F5C828 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BDA4598D2B5A151C00F5C828 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDA459902B5A151C00F5C828 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDA459972B640A9800F5C828 /* To Do List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "To Do List.swift"; sourceTree = "<group>"; };
+		BDA4599B2B640CB000F5C828 /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				BDA459892B5A151900F5C828 /* To_Do_ListApp.swift */,
 				BDA4598B2B5A151900F5C828 /* ContentView.swift */,
+				BDA4599B2B640CB000F5C828 /* AddItemView.swift */,
+				BDA459972B640A9800F5C828 /* To Do List.swift */,
 				BDA4598D2B5A151C00F5C828 /* Assets.xcassets */,
 				BDA4598F2B5A151C00F5C828 /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDA4598C2B5A151900F5C828 /* ContentView.swift in Sources */,
+				BDA459982B640A9800F5C828 /* To Do List.swift in Sources */,
 				BDA4598A2B5A151900F5C828 /* To_Do_ListApp.swift in Sources */,
+				BDA4599C2B640CB000F5C828 /* AddItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
