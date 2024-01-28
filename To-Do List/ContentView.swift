@@ -37,8 +37,8 @@ struct ContentView: View {
             .navigationBarTitle("To Do List")
             .navigationBarItems(leading: EditButton(),
                                 trailing: Button(action: {
-                showingAddItemView = true }) {
-                    Image(systemName: "plus")
+                                    showingAddItemView = true }) {
+                                    Image(systemName: "plus")
             })
         }
     }
@@ -48,7 +48,7 @@ struct ContentView: View {
     ContentView()
 }
 
-struct ToDoItem: Identifiable {
+struct ToDoItem: Identifiable, Codable {
     var id = UUID()
     var priority = String()
     var description = String()
